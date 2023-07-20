@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="todolist" />
+        <module name="dropwizard-todolist" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="todolist" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

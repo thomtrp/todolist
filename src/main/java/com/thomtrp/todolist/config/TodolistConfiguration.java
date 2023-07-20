@@ -1,27 +1,24 @@
 package com.thomtrp.todolist.config;
 
-import javax.validation.Valid;
-import javax.validation.constraints.NotNull;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import io.dropwizard.Configuration;
 import io.dropwizard.db.DataSourceFactory;
 
-public class TodolistConfiguration extends Configuration {
-    private static final String DATABASE = "database";
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 
+public class TodolistConfiguration extends Configuration {
     @Valid
     @NotNull
-    private DataSourceFactory dataSourceFactory = new DataSourceFactory();
+    private DataSourceFactory database = new DataSourceFactory();
 
-    @JsonProperty(DATABASE)
+    @JsonProperty("database")
     public DataSourceFactory getDataSourceFactory() {
-        return dataSourceFactory;
+        return database;
     }
 
-    @JsonProperty(DATABASE)
-    public void setDataSourceFactory(final DataSourceFactory dataSourceFactory) {
-        this.dataSourceFactory = dataSourceFactory;
+    @JsonProperty("database")
+    public void setDataSourceFactory(DataSourceFactory dataSourceFactory) {
+        this.database = dataSourceFactory;
     }
 }

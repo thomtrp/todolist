@@ -1,5 +1,6 @@
 package com.thomtrp.todolist.auth;
 
+import com.thomtrp.todolist.domain.model.User;
 import io.dropwizard.auth.Authorizer;
 
 import java.util.Objects;

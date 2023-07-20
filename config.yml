@@ -1,12 +1,8 @@
-logging:
-  level: INFO
-  loggers:
-    io.dropwizard: DEBUG
 database:
   driverClass: com.mysql.cj.jdbc.Driver
-  url: jdbc:mysql://localhost/dropwizard_blog
-  user: dropwizard_blog
-  password: dropwizard_blog
+  url: jdbc:mysql://localhost:3306/todolist
+  user: thomtrp
+  password: pswd
   maxWaitForConnection: 1s
   validationQuery: "SELECT 1"
   validationQueryTimeout: 3s
