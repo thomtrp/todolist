@@ -1,0 +1,11 @@
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/TodolistApplication.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/domain/model/User.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/adapters/api/TodoItemEndpoints.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/TodolistApplicationHealthCheck.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/auth/TodolistAuthenticator.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/config/TodolistConfiguration.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/domain/ports/TodoItemDao.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/auth/TodolistAuthorizer.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/adapters/api/ApiResponse.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/domain/model/TodoItem.java
+/Users/thomas_trompette/Perso/todolist/src/main/java/com/thomtrp/todolist/domain/ports/TodoItemService.java

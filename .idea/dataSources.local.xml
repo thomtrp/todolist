@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-213.7172.25">
+    <data-source name="todolist@localhost" uuid="71b8bb7c-b35e-4a6f-8c37-d35bf9ec6f5b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

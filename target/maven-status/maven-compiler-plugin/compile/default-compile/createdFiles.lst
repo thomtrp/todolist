@@ -1,0 +1,14 @@
+com/thomtrp/todolist/domain/model/TodoItem$TodoItemBuilder.class
+com/thomtrp/todolist/adapters/api/TodoItemEndpoints.class
+com/thomtrp/todolist/domain/ports/TodoItemDao.class
+com/thomtrp/todolist/TodolistApplication.class
+com/thomtrp/todolist/domain/model/TodoItem.class
+com/thomtrp/todolist/domain/model/User$UserBuilder.class
+com/thomtrp/todolist/domain/ports/TodoItemService.class
+com/thomtrp/todolist/TodolistApplication$1.class
+com/thomtrp/todolist/auth/TodolistAuthorizer.class
+com/thomtrp/todolist/config/TodolistConfiguration.class
+com/thomtrp/todolist/TodolistApplicationHealthCheck.class
+com/thomtrp/todolist/adapters/api/ApiResponse.class
+com/thomtrp/todolist/domain/model/User.class
+com/thomtrp/todolist/auth/TodolistAuthenticator.class
